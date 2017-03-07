@@ -3,14 +3,8 @@
 ########################################################################################################
 
 ###load all required packages
-suppressPackageStartupMessages(require('dplyr'))
-suppressPackageStartupMessages(require('ggplot2'))
-suppressPackageStartupMessages(require('caret'))
-suppressPackageStartupMessages(require('e1071'))
-suppressPackageStartupMessages(require('party'))
-suppressPackageStartupMessages(require('nnet'))
-suppressPackageStartupMessages(require('randomForest'))
-suppressPackageStartupMessages(require('C50'))
+pacman::p_load(dplyr, ggplot2,caret,e1071,party,nnet,randomForest,C50)
+
 
 #set directory to folder with downloaded file
 setwd("M:/")
